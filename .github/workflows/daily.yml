@@ -3,7 +3,7 @@ name: Daily Flight Tracker
 on:
   schedule:
     # 每天台灣時間早上 8 點自動執行 (UTC 00:00)
-    - cron: '0 0 * * *'
+    - cron: '0 */3 * * *'
   workflow_dispatch: # 支援手動觸發
 
 jobs:
