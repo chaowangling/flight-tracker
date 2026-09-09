@@ -10,7 +10,7 @@ APP_PASSWORD = os.environ.get("APP_PASSWORD")
 RECEIVER_EMAIL = os.environ.get("RECEIVER_EMAIL")
 SERPAPI_KEY = os.environ.get("SERPAPI_KEY")
 
-PRICE_LIMIT = 20000
+PRICE_LIMIT = 8000
 
 dep_date = (datetime.date.today() + datetime.timedelta(days=30)).strftime("%Y-%m-%d")
 arr_date = (datetime.date.today() + datetime.timedelta(days=37)).strftime("%Y-%m-%d")
